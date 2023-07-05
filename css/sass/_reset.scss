@@ -1,0 +1,27 @@
+@import './font.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: $font-primary;
+}
+
+header {
+  nav{
+    a {
+      text-decoration: none;
+    }
+    
+    ul {
+      list-style: none;
+    }
+  }
+  nav::before {
+    font-family: $font-secondary;
+  }
+}
